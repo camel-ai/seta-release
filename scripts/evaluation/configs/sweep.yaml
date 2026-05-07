@@ -1,0 +1,16 @@
+base_config: eval_default.yaml
+
+common:
+  workers: 3
+  n_trajs: 8
+
+axes:
+  model:
+    - label: seta-rl-8b-filtered
+      terminal_env.model.model_type: camel-ai/seta-rl-qwen3-8b-1376-filtered
+
+  dataset:
+    - label: tbench-2.0
+      dataset: terminal-bench-2.0
+    # - label: tbench-core
+    #   dataset: terminal-bench-core_migrated
