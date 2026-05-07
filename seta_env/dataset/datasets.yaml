@@ -1,0 +1,13 @@
+# Unified dataset registry for seta_env.
+#
+# Each entry has:
+#   repo       — git URL (HuggingFace or GitHub)
+#   subfolder  — (optional) only download/use this subfolder from the repo
+#
+# Download strategy: git clone + git lfs pull first; if git-lfs is not
+# available (local machines without apt), fall back to HuggingFace API
+# (only works for huggingface.co URLs).
+
+datasets:
+  seta-env:
+    repo: "https://huggingface.co/datasets/AnonymousSubmissionUnderDouble-BlindRevi/Anonymous_Submission_Release"

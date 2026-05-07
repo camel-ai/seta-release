@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# Output and run directories
+output/
+runs/
+*_runs*/
+*_results_only/
+claude_sonnet_runs*/
+jobs/
+evaluation/terminal_bench_eval/jobs/
+evaluation/terminal_bench_eval/logs/
+evaluation/terminal_bench_run/output/
+
+# Log files
+*.log
+*.out
+*.cast
+*.strip
+logs/
+*_logs/
+camel_logs/
+
+# Dataset directories (if temporary)
+dataset/simple*_dataset/
+dataset/simple*-dataset/
+
+# Debian packages
+*.deb
+*.deb.*
+
+# SSH keys
+*.pub
+tagent
+
+dataset/*
+
+dart_example*
+datasynth/analysis_pipeline/synth_data*
+
+*outputs*
+
+# Slot pool node config (contains IPs, SSH keys — varies per deployment)
+seta_env/runtimes/slot_pool_service/nodes.yaml
+
+# Build artifacts
+*.egg-info/
+
+# FRP binaries (downloaded at runtime)
+seta_env/services/frp_tunnel/frp/
+
+# Env service node config (contains IPs — varies per deployment)
+seta_env/services/nodes.yaml

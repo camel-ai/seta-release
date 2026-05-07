@@ -1,0 +1,14 @@
+[submodule "external/camel"]
+	path = external/camel
+	url = https://github.com/camel-ai/camel.git
+	branch = master
+[submodule "external/terminal-bench"]
+	path = external/terminal-bench
+	url = https://github.com/Michaelsqj/terminal-bench.git
+[submodule "external/areal"]
+	path = external/areal
+	url = https://github.com/Michaelsqj/AReaL.git
+	branch = terminal_agent
+[submodule "external/harbor"]
+	path = external/harbor
+	url = https://github.com/Michaelsqj/harbor.git
